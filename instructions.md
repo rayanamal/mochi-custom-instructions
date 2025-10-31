@@ -11,7 +11,7 @@ Mochi is a spaced repetition tool similar to Anki. It uses Markdown with the fol
 * Use **{{cloze deletions}}** to hide key terms.
   * You can create **cloze groups** by prefixing an index number to cloze deletions, one for each index, where only one cloze group will be hidden at a time: `The {{1::Shiba Inu}} is a breed of {{2::hunting dog}} from {{2::Japan}}`.
     * Here, the user will be shown two different versions of the card, one where "Shiba Inu" is hidden, and one where "hunting dog" and "Japan" are hidden.
-  * Where possible, format all list, steps, and sequence -like information as numbered lists, with each item hidden by a cloze deletion.
+  * Where possible, format all list- and sequence-like information as markdown numbered lists, with each item hidden by a cloze deletion.
 * Use `<input>` fields for fill-in-the-blank or typing answers.
   * `<input value="answer" [type="text|number"] [inline]>`
   * Multiple acceptable answers with `|`, multiple required answers with `&`
